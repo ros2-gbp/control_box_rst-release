@@ -1,0 +1,59 @@
+ros-rolling-control-box-rst (0.0.7-2focal) focal; urgency=high
+
+  * Fixed issue: Wrong sparse Jacobian pattern in solver LM
+  * Stage functions: added dedicated method for state and time dependency
+  * Lsq form added to hybrid cost functions
+  * Added missing header for eigenvalue computation
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Fri, 05 Jun 2020 04:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.6-2focal) focal; urgency=high
+
+  * Hybrid cost functions added: Minimum time and control/state quadratic form
+  * Discretization grids: The time difference is now initialized to dt_ref for proper reference caching
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Sun, 24 May 2020 04:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.5-2focal) focal; urgency=high
+
+  * Changed minimum CMake version to 3.1
+  * Add default parameter to SolverIpopt::initialize() in case Ipopt is not found..
+  * Removed obsolete gmock include
+  * Fix setLastControlRef and graph consistency.
+  * Internal libgtest target renamed. Fixed compilation issue for yaml-cpp test
+  * Contributors: Christoph Rösmann, Maximilian Krämer
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Wed, 13 May 2020 04:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.4-2focal) focal; urgency=high
+
+  * Removed exec_depend on catkin to allow the use of the same release for ros1 and ros2
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Fri, 21 Feb 2020 05:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.3-2focal) focal; urgency=high
+
+  * Changed build_type to cmake in package.xml according to REP-136
+  * Set some optional findPackage cmake scripts to quiet
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Fri, 21 Feb 2020 05:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.2-2focal) focal; urgency=high
+
+  * Changed ros dependency from eigen3 to eigen
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Wed, 19 Feb 2020 05:00:00 -0000
+
+ros-rolling-control-box-rst (0.0.1-2focal) focal; urgency=high
+
+  * First release
+  * Contributors: Christoph Rösmann
+
+ -- Christoph Rösmann <christoph.roesmann@tu-dortmund.de>  Wed, 19 Feb 2020 05:00:00 -0000
+
+
