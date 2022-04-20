@@ -1,3 +1,26 @@
+## control_box_rst (humble) - 0.0.7-1
+
+The packages in the `control_box_rst` repository were released into the `humble` distro by running `/home/steven/osrf/bloom/.direnv/python-3.10.4/bin/bloom-release -r humble control_box_rst -n` on `Wed, 20 Apr 2022 21:22:03 -0000`
+
+The `control_box_rst` package was released.
+
+Version of package(s) in repository `control_box_rst`:
+
+- upstream repository: https://github.com/rst-tu-dortmund/control_box_rst.git
+- release repository: https://github.com/ros2-gbp/control_box_rst-release.git
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.0`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## control_box_rst (rolling) - 0.0.7-3
 
 The packages in the `control_box_rst` repository were released into the `rolling` distro by running `/home/steven/osrf/bloom/.direnv/python-3.10.2/bin/bloom-release -r rolling control_box_rst` on `Wed, 23 Feb 2022 21:10:15 -0000`
