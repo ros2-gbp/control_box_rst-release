@@ -1,0 +1,12 @@
+Source: ros-rolling-control-box-rst
+Section: misc
+Priority: optional
+Maintainer: Christoph Rösmann <christoph.roesmann@tu-dortmund.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, coinor-libipopt-dev, libeigen3-dev, ros-rolling-ros-workspace
+Homepage: http://wiki.ros.org/control_box_rst
+Standards-Version: 3.9.2
+
+Package: ros-rolling-control-box-rst
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, coinor-libipopt-dev, libeigen3-dev, ros-rolling-ros-workspace
+Description: The control_box_rst package provides C++ libraries for predictive control, direct optimal control, optimization and simulation.
