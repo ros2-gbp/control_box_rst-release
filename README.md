@@ -1,3 +1,26 @@
+## control_box_rst (jazzy) - 0.0.7-1
+
+The packages in the `control_box_rst` repository were released into the `jazzy` distro by running `/usr/local/google/home/marcogg/migration/bin/bloom-release control_box_rst --rosdistro jazzy` on `Mon, 22 Apr 2024 07:58:35 -0000`
+
+The `control_box_rst` package was released.
+
+Version of package(s) in repository `control_box_rst`:
+
+- upstream repository: https://github.com/rst-tu-dortmund/control_box_rst.git
+- release repository: https://github.com/ros2-gbp/control_box_rst-release.git
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## control_box_rst (rolling) - 0.0.7-5
 
 The packages in the `control_box_rst` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling control_box_rst` on `Wed, 06 Mar 2024 18:17:34 -0000`
